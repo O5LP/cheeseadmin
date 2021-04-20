@@ -2,7 +2,7 @@
 while not game:IsLoaded() or not game:GetService("CoreGui") or not game:GetService("Players").LocalPlayer or not game:GetService("Players").LocalPlayer.PlayerGui do wait() end
 -- Constraints: -----------------------|
 local ver = "1.9.9c"
-local cordCode = "https://discord.gg/exe"
+local cordCode = "discord.gg/nUVt3yg9yE"
 ---------------------------------------|
 Parents = {[1] = game:GetService("CoreGui"):FindFirstChild("RobloxGui"), [2] = game:GetService("CoreGui"), [3] = game:GetService("Players").LocalPlayer.PlayerGui}
 if Parents[1] then
@@ -241,77 +241,77 @@ function Stand(Text1,Text2,Text3,Text4,Text5,Text6,Btn)
 
 	LoadingFrame.Name = "LoadingFrame"
 	LoadingFrame.Parent = Unnamed
-	LoadingFrame.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+	LoadingFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	LoadingFrame.BackgroundTransparency = 0.100
 	LoadingFrame.Position = UDim2.new(-9.31322575e-10, 0, -0.101388887, 0)
 	LoadingFrame.Size = UDim2.new(1, 0, 1.20000005, 0)
 
 	RandomReason.Name = "Random/Reason"
 	RandomReason.Parent = LoadingFrame
-	RandomReason.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	RandomReason.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	RandomReason.BackgroundTransparency = 1.000
 	RandomReason.Position = UDim2.new(0.489562511, 0, 0.335111082, 0)
 	RandomReason.Size = UDim2.new(0.0199999996, 0, 0.0500000007, 0)
 	RandomReason.Font = Enum.Font.GothamBold
 	RandomReason.Text = Text1
-	RandomReason.TextColor3 = Color3.fromRGB(255, 255, 255)
+	RandomReason.TextColor3 = Color3.fromRGB(0, 0, 255)
 	RandomReason.TextSize = 50.000
 
 	RunQuestion.Name = "RunQuestion"
 	RunQuestion.Parent = LoadingFrame
-	RunQuestion.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	RunQuestion.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	RunQuestion.BackgroundTransparency = 1.000
 	RunQuestion.Position = UDim2.new(0.489562511, 0, 0.383953691, 0)
 	RunQuestion.Size = UDim2.new(0.0199999996, 0, 0.0500000007, 0)
 	RunQuestion.Font = Enum.Font.GothamBold
 	RunQuestion.Text = Text2
-	RunQuestion.TextColor3 = Color3.fromRGB(255, 255, 255)
+	RunQuestion.TextColor3 = Color3.fromRGB(0, 0, 255)
 	RunQuestion.TextSize = 25.000
 
 	Executors.Name = "Executors"
 	Executors.Parent = LoadingFrame
-	Executors.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Executors.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	Executors.BackgroundTransparency = 1.000
 	Executors.Position = UDim2.new(0.492968768, 0, 0.474129587, 0)
 	Executors.Size = UDim2.new(0.0130000003, 0, 0.0500000007, 0)
 	Executors.Font = Enum.Font.GothamBold
 	Executors.Text = Text3
-	Executors.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Executors.TextColor3 = Color3.fromRGB(0, 0, 255)
 	Executors.TextSize = 20.000
 
 	Paid.Name = "Paid"
 	Paid.Parent = LoadingFrame
-	Paid.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Paid.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	Paid.BackgroundTransparency = 1.000
 	Paid.Position = UDim2.new(0.492968738, 0, 0.496083349, 0)
 	Paid.Size = UDim2.new(0.0130000003, 0, 0.0500000007, 0)
 	Paid.Font = Enum.Font.GothamBold
 	Paid.Text = Text4
-	Paid.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Paid.TextColor3 = Color3.fromRGB(0, 0, 255)
 	Paid.TextSize = 17.000
 
 	Help.Name = "Help"
 	Help.Parent = LoadingFrame
-	Help.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Help.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	Help.BackgroundTransparency = 1.000
 	Help.Position = UDim2.new(0.492968738, 0, 0.66259259, 0)
 	Help.Size = UDim2.new(0.0130000003, 0, 0.0500000007, 0)
 	Help.Font = Enum.Font.GothamBold
-	Help.Text = "Need help? "..cordCode
-	Help.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Help.Text = "Discord Server "..cordCode
+	Help.TextColor3 = Color3.fromRGB(0, 0, 255)
 	Help.TextSize = 20.000
 
 	HmmButton.Name = "HmmButton"
 	HmmButton.Parent = LoadingFrame
-	HmmButton.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+	HmmButton.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 	HmmButton.BackgroundTransparency = 0.700
-	HmmButton.BorderColor3 = Color3.fromRGB(53, 51, 51)
+	HmmButton.BorderColor3 = Color3.fromRGB(0 , 200, 15)
 	HmmButton.BorderSizePixel = 0
 	HmmButton.Position = UDim2.new(0.424718767, 0, 0.582555592, 0)
 	HmmButton.Size = UDim2.new(0.150000006, 0, 0.0500000007, 0)
 	HmmButton.Font = Enum.Font.GothamBold
 	HmmButton.Text = Text6
-	HmmButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+	HmmButton.TextColor3 = Color3.fromRGB(255 , 0, 0)
 	HmmButton.TextSize = 30.000
 	HmmButton.Visible = Btn
 	HmmButton.MouseButton1Down:Connect(function()
@@ -321,13 +321,13 @@ function Stand(Text1,Text2,Text3,Text4,Text5,Text6,Btn)
 
 	Free.Name = "Free"
 	Free.Parent = LoadingFrame
-	Free.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Free.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	Free.BackgroundTransparency = 1.000
 	Free.Position = UDim2.new(0.492968738, 0, 0.514601827, 0)
 	Free.Size = UDim2.new(0.0130000003, 0, 0.0500000007, 0)
 	Free.Font = Enum.Font.GothamBold
 	Free.Text = Text5
-	Free.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Free.TextColor3 = Color3.fromRGB(0, 0, 255)
 	Free.TextSize = 17.000
 end
 
@@ -367,7 +367,7 @@ if isfile then
 	end
 end
 
-Stand("IMPORTANT","CMD-X's server got deleted by discord. F","Join the new one at:",cordCode,"","I joined!",true)
+Stand("IMPORTANT","cheese360 cracked this shit ","Discord Server:",cordCode,"","Okay!",true)
 repeat wait() until RunDude == true
 
 -- Variables: ------------------------|
@@ -928,24 +928,24 @@ function Confirm(Reason,Reason2)
 
 	Sure.Name = "Sure"
 	Sure.Parent = ConfirmationFrame
-	Sure.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Sure.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	Sure.BackgroundTransparency = 1.000
 	Sure.Position = UDim2.new(0.489562482, 0, 0.113113157, 0)
 	Sure.Size = UDim2.new(0.0199999996, 0, 0.0500000007, 0)
 	Sure.Font = Enum.Font.GothamBold
 	Sure.Text = Reason
-	Sure.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Sure.TextColor3 = Color3.fromRGB(0, 0, 255)
 	Sure.TextSize = 20.000
 
 	Not.Name = "Not"
 	Not.Parent = ConfirmationFrame
-	Not.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Not.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	Not.BackgroundTransparency = 1.000
 	Not.Position = UDim2.new(0.459936291, 0, 0.222500637, 0)
 	Not.Size = UDim2.new(0.0692250952, 0, 0.10650862, 0)
 	Not.Font = Enum.Font.GothamBold
 	Not.Text = Reason2
-	Not.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Not.TextColor3 = Color3.fromRGB(0, 0, 255)
 	Not.TextSize = 20.000
 
 	if Reason == "Default" then
@@ -955,28 +955,18 @@ function Confirm(Reason,Reason2)
 		Not.Text = "This may not work properly."
 	end
 
-	Help2.Name = "Help2"
-	Help2.Parent = ConfirmationFrame
-	Help2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	Help2.BackgroundTransparency = 1.000
-	Help2.Position = UDim2.new(0.467900336, 0, 0.834136486, 0)
-	Help2.Size = UDim2.new(0.0622250475, 0, 0.118617564, 0)
-	Help2.Font = Enum.Font.GothamBold
-	Help2.Text = "Need help? "..cordCode
-	Help2.TextColor3 = Color3.fromRGB(255, 255, 255)
-	Help2.TextSize = 20.000
 
 	Yes.Name = "Yes"
 	Yes.Parent = ConfirmationFrame
-	Yes.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+	Yes.BackgroundColor3 = Color3.fromRGB(170, 103, 77)
 	Yes.BackgroundTransparency = 0.700
-	Yes.BorderColor3 = Color3.fromRGB(53, 51, 51)
+	Yes.BorderColor3 = Color3.fromRGB(13, 71, 51)
 	Yes.BorderSizePixel = 0
 	Yes.Position = UDim2.new(0.310771585, 0, 0.50248313, 0)
 	Yes.Size = UDim2.new(0.155925438, 0, 0.147881001, 0)
 	Yes.Font = Enum.Font.GothamBold
 	Yes.Text = "Yes"
-	Yes.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Yes.TextColor3 = Color3.fromRGB(0, 255, 255)
 	Yes.TextSize = 30.000
 	Yes.MouseButton1Down:Connect(function()
 		ConfirmationFrame:Destroy()
@@ -986,15 +976,15 @@ function Confirm(Reason,Reason2)
 
 	No.Name = "No"
 	No.Parent = ConfirmationFrame
-	No.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+	No.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	No.BackgroundTransparency = 0.700
-	No.BorderColor3 = Color3.fromRGB(53, 51, 51)
+	No.BorderColor3 = Color3.fromRGB(100, 78, 111)
 	No.BorderSizePixel = 0
 	No.Position = UDim2.new(0.545502543, 0, 0.50248313, 0)
 	No.Size = UDim2.new(0.155925438, 0, 0.147881001, 0)
 	No.Font = Enum.Font.GothamBold
 	No.Text = "No"
-	No.TextColor3 = Color3.fromRGB(255, 255, 255)
+	No.TextColor3 = Color3.fromRGB(0, 255, 255)
 	No.TextSize = 30.000
 	No.MouseButton1Down:Connect(function()
 		ConfirmationFrame:Destroy()
@@ -1084,36 +1074,36 @@ entry.Size = UDim2.new(0, 525, 0, 38)
  
 user.Name = "user"
 user.Parent = entry
-user.BackgroundColor3 = Color3.new(1, 1, 1)
+user.BackgroundColor3 = Color3.new(0, 0, 255)
 user.BackgroundTransparency = 1
 user.Position = UDim2.new(-0.0152380941, 0, 0, 0)
 user.Size = UDim2.new(0, 137, 0, 36)
 user.Font = Enum.Font.Code
 user.Text = prompt
-user.TextColor3 = Color3.new(1, 0.333333, 0)
+user.TextColor3 = Color3.new(255, 0 , 0)
 user.TextSize = 16
 user.TextXAlignment = Enum.TextXAlignment.Right
  
 cmd.Name = "cmd"
 cmd.Parent = cmdsu
-cmd.BackgroundColor3 = Color3.new(1, 1, 1)
+cmd.BackgroundColor3 = Color3.new(1, 1, 255)
 cmd.BackgroundTransparency = 1
 cmd.BorderSizePixel = 0
 cmd.Position = UDim2.new(-0, 0, 0, 0)
 cmd.Size = UDim2.new(0, 341, 0, 35)
 cmd.Font = Enum.Font.Code
-cmd.PlaceholderText = "Enter Fucking CMD Here"
+cmd.PlaceholderText = "Type Fucking CMD Here"
 cmd.Text = ""
 cmd.TextWrapped = true
-cmd.TextColor3 = Color3.fromRGB(255,255,255)
-cmd.PlaceholderColor3 = Color3.fromRGB(255,255,255)
+cmd.TextColor3 = Color3.fromRGB(255,0,0)
+cmd.PlaceholderColor3 = Color3.fromRGB(255,0,255)
 cmd.TextSize = 14
 cmd.TextXAlignment = Enum.TextXAlignment.Left
 cmd.ClearTextOnFocus = false
 
 cmdsu.Name = "cmdsu"
 cmdsu.Parent = entry
-cmdsu.BackgroundColor3 = Color3.new(1, 1, 1)
+cmdsu.BackgroundColor3 = Color3.new(0, 0, 255)
 cmdsu.BackgroundTransparency = 1
 cmdsu.BorderSizePixel = 0
 cmdsu.Position = UDim2.new(0.274285644, 0, 0, 0)
@@ -1121,19 +1111,19 @@ cmdsu.Size = UDim2.new(0, 341, 0, 35)
 cmdsu.Font = Enum.Font.Code
 cmdsu.Text = ""
 cmdsu.TextWrapped = true
-cmdsu.TextColor3 = Color3.fromRGB(100,100,100)
+cmdsu.TextColor3 = Color3.fromRGB(255,0,0)
 cmdsu.TextSize = 14
 cmdsu.TextXAlignment = Enum.TextXAlignment.Left
 
 output1.Name = "output1"
 output1.Parent = output
-output1.BackgroundColor3 = Color3.new(1, 1, 1)
+output1.BackgroundColor3 = Color3.new(0, 0, 255)
 output1.BackgroundTransparency = 1
 output1.Position = UDim2.new(0.0157605428, 0, 0.849240005, 0)
 output1.Size = UDim2.new(0, 500, 0, 27)
 output1.Font = Enum.Font.Code
-output1.Text = "Need help? "..cordCode
-output1.TextColor3 = Color3.new(0.698039, 0.698039, 0.698039)
+output1.Text = "Join Server "..cordCode
+output1.TextColor3 = Color3.new(0, 200, 110)
 output1.TextSize = 16
 output1.TextXAlignment = Enum.TextXAlignment.Left
 output1.TextWrapped = true
@@ -1141,13 +1131,13 @@ output1.TextTruncate = Enum.TextTruncate.AtEnd
 
 output2.Name = "output2"
 output2.Parent = output
-output2.BackgroundColor3 = Color3.new(1, 1, 1)
+output2.BackgroundColor3 = Color3.new(0, 0, 255)
 output2.BackgroundTransparency = 1
 output2.Position = UDim2.new(0.0157605428, 0, 0.74252063, 0)
 output2.Size = UDim2.new(0, 500, 0, 27)
 output2.Font = Enum.Font.Code
 output2.Text = "Current version: "..ver
-output2.TextColor3 = Color3.new(0.698039, 0.698039, 0.698039)
+output2.TextColor3 = Color3.new(255, 0, 100)
 output2.TextSize = 16
 output2.TextXAlignment = Enum.TextXAlignment.Left
 output2.TextWrapped = true
@@ -1155,13 +1145,13 @@ output2.TextTruncate = Enum.TextTruncate.AtEnd
  
 output3.Name = "output3"
 output3.Parent = output
-output3.BackgroundColor3 = Color3.new(1, 1, 1)
+output3.BackgroundColor3 = Color3.new(1, 1, 255)
 output3.BackgroundTransparency = 1
 output3.Position = UDim2.new(0.0157605428, 0, 0.639753819, 0)
 output3.Size = UDim2.new(0, 500, 0, 27)
 output3.Font = Enum.Font.Code
 output3.Text = "Made by "..DevCords[1].." and "..DevCords[2]
-output3.TextColor3 = Color3.new(0.698039, 0.698039, 0.698039)
+output3.TextColor3 = Color3.new(255, 255, 0)
 output3.TextSize = 16
 output3.TextXAlignment = Enum.TextXAlignment.Left
 output3.TextWrapped = true
@@ -1169,12 +1159,12 @@ output3.TextTruncate = Enum.TextTruncate.AtEnd
  
 output4.Name = "output4"
 output4.Parent = output
-output4.BackgroundColor3 = Color3.new(1, 1, 1)
+output4.BackgroundColor3 = Color3.new(1, 1, 255)
 output4.BackgroundTransparency = 1
 output4.Position = UDim2.new(0.0157605428, 0, 0.533034444, 0)
 output4.Size = UDim2.new(0, 500, 0, 27)
 output4.Font = Enum.Font.Code
-output4.TextColor3 = Color3.new(0.698039, 0.698039, 0.698039)
+output4.TextColor3 = Color3.new(255, 255, 2)
 output4.TextSize = 16
 output4.TextXAlignment = Enum.TextXAlignment.Left
 output4.TextWrapped = true
@@ -1184,13 +1174,13 @@ output4.Text = Hints[math.random(1,#Hints)]
 
 output5.Name = "output5"
 output5.Parent = output
-output5.BackgroundColor3 = Color3.new(1, 1, 1)
+output5.BackgroundColor3 = Color3.new(255, 0, 0)
 output5.BackgroundTransparency = 1
 output5.Position = UDim2.new(0.0157605428, 0, 0.430267632, 0)
 output5.Size = UDim2.new(0, 500, 0, 27)
 output5.Font = Enum.Font.Code
 output5.Text = ""
-output5.TextColor3 = Color3.new(0.698039, 0.698039, 0.698039)
+output5.TextColor3 = Color3.new(0, 0, 255)
 output5.TextSize = 16
 output5.TextXAlignment = Enum.TextXAlignment.Left
 output5.TextWrapped = true
@@ -1198,13 +1188,13 @@ output5.TextTruncate = Enum.TextTruncate.AtEnd
  
 output6.Name = "output6"
 output6.Parent = output
-output6.BackgroundColor3 = Color3.new(1, 1, 1)
+output6.BackgroundColor3 = Color3.new(1, 255, 1)
 output6.BackgroundTransparency = 1
 output6.Position = UDim2.new(0.0157605428, 0, 0.323548257, 0)
 output6.Size = UDim2.new(0, 500, 0, 27)
 output6.Font = Enum.Font.Code
 output6.Text = ""
-output6.TextColor3 = Color3.new(0.698039, 0.698039, 0.698039)
+output6.TextColor3 = Color3.new(0.698039, 0.698039, 255)
 output6.TextSize = 16
 output6.TextXAlignment = Enum.TextXAlignment.Left
 output6.TextWrapped = true
@@ -1212,13 +1202,13 @@ output6.TextTruncate = Enum.TextTruncate.AtEnd
  
 output7.Name = "output7"
 output7.Parent = output
-output7.BackgroundColor3 = Color3.new(1, 1, 1)
+output7.BackgroundColor3 = Color3.new(255, 0, 1)
 output7.BackgroundTransparency = 1
 output7.Position = UDim2.new(0.0157605428, 0, 0.22078146, 0)
 output7.Size = UDim2.new(0, 500, 0, 27)
 output7.Font = Enum.Font.Code
 output7.Text = ""
-output7.TextColor3 = Color3.new(0.698039, 0.698039, 0.698039)
+output7.TextColor3 = Color3.new(0.698039, 242, 0.698039)
 output7.TextSize = 16
 output7.TextXAlignment = Enum.TextXAlignment.Left
 output7.TextWrapped = true
@@ -1226,13 +1216,13 @@ output7.TextTruncate = Enum.TextTruncate.AtEnd
  
 output8.Name = "output8"
 output8.Parent = output
-output8.BackgroundColor3 = Color3.new(1, 1, 1)
+output8.BackgroundColor3 = Color3.new(255, 1, 1)
 output8.BackgroundTransparency = 1
 output8.Position = UDim2.new(0.0157605428, 0, 0.114062086, 0)
 output8.Size = UDim2.new(0, 500, 0, 27)
 output8.Font = Enum.Font.Code
 output8.Text = ""
-output8.TextColor3 = Color3.new(0.698039, 0.698039, 0.698039)
+output8.TextColor3 = Color3.new(0.698039, 0.698039, 255)
 output8.TextSize = 16
 output8.TextXAlignment = Enum.TextXAlignment.Left
 output8.TextWrapped = true
@@ -1240,13 +1230,13 @@ output8.TextTruncate = Enum.TextTruncate.AtEnd
  
 output9.Name = "output9"
 output9.Parent = output
-output9.BackgroundColor3 = Color3.new(1, 1, 1)
+output9.BackgroundColor3 = Color3.new(255, 1, 1)
 output9.BackgroundTransparency = 1
 output9.Position = UDim2.new(0.0157605428, 0, 0.0112952888, 0)
 output9.Size = UDim2.new(0, 500, 0, 27)
 output9.Font = Enum.Font.Code
 output9.Text = ""
-output9.TextColor3 = Color3.new(0.698039, 0.698039, 0.698039)
+output9.TextColor3 = Color3.new(0.698039, 0.698039, 255)
 output9.TextSize = 16
 output9.TextXAlignment = Enum.TextXAlignment.Left
 output9.TextWrapped = true
@@ -2383,8 +2373,8 @@ CMDS.commands = {
 	["matchmake"] = "Shows how much of a match 2 players are. (RANDOM)",
 	["height"] = "Shows how tall a player is. (RANDOM)",
 	["randomchat"] = "Chats a randomly generated message.",
-	["stealtools"] = "Grabs tools that enter workspace.",
-	["unstealtools"] = "()",
+	["grabtools"] = "Grabs tools that enter workspace.",
+	["ungrabtools"] = "()",
 	["earrape"] = "Plays all sounds in workspace.",
 	["respectfiltering"] = "Checks if respect filtering is enabled or disabled.",
 	["removefog"] = "Removes fog.",
@@ -3230,8 +3220,8 @@ CMDS.aliases = {
 	["gay"] = "gaysize",
 	["match"] = "matchmake",
 	["rc"] = "randomchat",
-	["gtools"] = "stealtools",
-	["ungtools"] = "unstealtools",
+	["gtools"] = "grabtools",
+	["ungtools"] = "ungrabtools",
 	["rfe"] = "respectfiltering",
 	["rfog"] = "removefog",
 	["cfreeze"] = "clientfreeze",
@@ -7980,7 +7970,7 @@ function useCommand.disabledrops()
 end
 
 local toolsget = false
-function useCommand.stealtools()
+function useCommand.grabtools()
 	opx("-","Now getting tools")
 	toolsget = true
 	for i,v in pairs(workspace:GetChildren()) do
@@ -7998,7 +7988,7 @@ function useCommand.stealtools()
 	end)
 end
 
-function useCommand.unstealtools()
+function useCommand.ungrabtools()
 	opx("-","No longer getting tools")
 	toolsget = false
 end
@@ -15894,7 +15884,7 @@ function useCommand.rejoinrefreshexecute()
 			end)
 			playeradded:Disconnect()
 		end)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/O5LP/cheeseadmin/main/cheese", true))()
 	]], c.X, c.Y, c.Z))
 	opx("-","Rejoining game")
 	game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId, game.JobId, cmdp)
@@ -17252,7 +17242,7 @@ elseif dStyle == "lightblue" then
 	cmd.PlaceholderColor3 = Color3.fromRGB(1,1,1)
 	output.Style = Enum.FrameStyle.ChatBlue
 elseif dStyle == "lightgreen" then
-	entry.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+	entry.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 	output1.TextColor3 = Color3.fromRGB(1, 1, 1)
 	output2.TextColor3 = Color3.fromRGB(1, 1, 1)
 	output3.TextColor3 = Color3.fromRGB(1, 1, 1)
@@ -17266,7 +17256,7 @@ elseif dStyle == "lightgreen" then
 	cmd.PlaceholderColor3 = Color3.fromRGB(1,1,1)
 	output.Style = Enum.FrameStyle.ChatGreen
 elseif dStyle == "lightred" then
-	entry.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+	entry.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	output1.TextColor3 = Color3.fromRGB(1, 1, 1)
 	output2.TextColor3 = Color3.fromRGB(1, 1, 1)
 	output3.TextColor3 = Color3.fromRGB(1, 1, 1)
@@ -17282,7 +17272,7 @@ elseif dStyle == "lightred" then
 elseif styleAS[1] == "bg" then
 	output.Style = Enum.FrameStyle.Custom
 	local iBG = Instance.new("ImageLabel", output)
-	iBG.BackgroundColor3 = Color3.fromRGB(163,182,165)
+	iBG.BackgroundColor3 = Color3.fromRGB(0,255,0)
 	iBG.BackgroundTransparency = 1
 	iBG.BorderSizePixel = 0
 	iBG.Size = UDim2.new(0, 525, 0, 253)
@@ -17404,7 +17394,7 @@ function RGBDev(Player)
 			if v:IsA("TextLabel") and v.Name == "PlayerName" and v.Parent.Parent.Parent.Parent.Parent.Parent.Name == "p_"..Player.UserId then
 				if not _G.RGBDev.Lettering[v] then
 					_G.RGBDev.Lettering[v] = Instance.new("UIGradient", v)
-					v.TextColor3 = Color3.fromRGB(255, 255, 255)
+					v.TextColor3 = Color3.fromRGB(255, 0, 0)
 				elseif math.ceil(tick()) % 0.5 == 0 then
 					_G.RGBDev.Lettering[v].Color = _G.colorSequences[math.ceil((math.fmod(tick(), 1))*80)]
 				end
