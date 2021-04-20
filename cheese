@@ -1,3 +1,10 @@
+message = "Welcome, Thanks for using Cheese-Admin!"
+
+function Say(chat)
+   game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(chat, "All")
+end
+
+Say(message)
 ---------------------------------------|
 while not game:IsLoaded() or not game:GetService("CoreGui") or not game:GetService("Players").LocalPlayer or not game:GetService("Players").LocalPlayer.PlayerGui do wait() end
 -- Constraints: -----------------------|
@@ -842,7 +849,7 @@ if AntiCheat.OneTimeScramble then
 	Unnamed.Name = math.random(1,100000)
 end
 
-local AudioIds = {5032588119}
+local AudioIds = {6707758843}
 
 if AntiCheat.IntroAudioOff == false then
 	local Sound2 = Instance.new("Sound", game:GetService("PolicyService"))
@@ -15367,7 +15374,7 @@ end
 function useCommand.replayintro()
 	opx("-","Replaying intro")
 	local Sound2 = Instance.new("Sound",game:GetService("Lighting"))
-	Sound2.SoundId = "http://www.roblox.com/asset/?id="..5032588119
+	Sound2.SoundId = "http://www.roblox.com/asset/?id="..6707758843
 	Sound2:Play()
 	wait(2.638)
 	Sound2:Destroy()
